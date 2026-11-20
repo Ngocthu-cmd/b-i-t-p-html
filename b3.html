@@ -1,31 +1,21 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <link rel="stylesheet" href="b3.css">
+    <title>Tính năm âm lịch</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <form>
-        <span>Frist name:</span>
-        <input type="text" name="fristname">
-        <br>
-        <span>Last name:</span>
-        <input type="text" name="lastname">
-        <br>
-        <span>Email:</span>
-        <input type="email" name="email">
-        <br>
-        <span>Town:</span>
-        <select name="town">
-            <option value="1">Sofia</option>
-            <option value="2">Ohio</option>
-            <option value="3">Alaba</option>
-        </select>
-        <input type="submit" value="Submit">
-    </form>
-    
+
+    <h2>Tính năm âm lịch</h2>
+
+    <label>Nhập năm dương lịch:</label>
+    <input type="number" id="nam">
+
+    <button onclick="tinhNamAm()">Tính</button>
+
+    <p id="ketQua"></p>
+
+    <script src="b3.js"></script>
+
 </body>
 </html>
